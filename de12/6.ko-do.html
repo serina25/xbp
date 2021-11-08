@@ -1,0 +1,22 @@
+<code>
+    <ol style="list-style:decimal-leading-zero outside;in-left:0;padding-left:36px;margin:0;background-color:#EEF;color:#000;">
+    <li style="background-color:#EFF;">from time import sleep</li>
+    <li style="background-color:#EEF;">#時間指定</li>
+    <li style="background-color:#EFF;">target_time = 10</li>
+    <li style="background-color:#EEF;"></li>
+    <li style="background-color:#EFF;"></li>
+    <li style="background-color:#EEF;">def down_timer(secs):</li>
+    <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;#カウントダウン</li>
+    <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;#10から１まで表示　ゼロなしでプリント</li>
+    <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;for i in range(secs, 0, -1):</li>
+    <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(i)</li>
+    <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sleep(1)</li>
+    <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;print("時間です！")</li>
+    <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;#アラーム音</li>
+    <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;import winsound</li>
+    <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;#繰り返し</li>
+    <li style="background-color:#EEF;">&nbsp;&nbsp;&nbsp;&nbsp;for i in range(5):  # 5回繰り返す</li>
+    <li style="background-color:#EFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;winsound.Beep(500, 900)</li>
+    <li style="background-color:#EEF;"></li>
+    <li style="background-color:#EFF;">down_timer(target_time)</li>
+    </ol></code>
