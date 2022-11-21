@@ -477,7 +477,47 @@ section h2{
     margin: auto;
 }
 
-/* button */
+
+/* button_index indexページ*/
+.button_index a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 230px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+.button_index a:before,
+.button_index a:after {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  content: '';
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  background: #ffc0cb;
+}
+
+.button_index a:before {
+  top: 0;
+  left: 0;
+}
+
+.button_index a:after {
+  right: 0;
+  bottom: 0;
+}
+
+.button_index a:hover:before,
+.button_index a:hover:after {
+  width: 0;
+}
+
+/* button  本文*/
 .button a{
     background: #eee;
     border-radius: 3px;
