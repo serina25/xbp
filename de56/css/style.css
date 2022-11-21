@@ -476,3 +476,24 @@ section h2{
     width: 50%;
     margin: auto;
 }
+
+/* button */
+.button a{
+    background: #eee;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 220px;
+    padding: 10px 25px;
+    color: #313131;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    box-shadow: 5px 5px 0 #ffc0cb;
+}
+.button a:hover {
+  background-color: #b3d9ff;
+  box-shadow: 0 0 0;
+}
