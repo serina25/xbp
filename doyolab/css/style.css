@@ -128,29 +128,25 @@ section h2{
 /* SEC01 about me
 ------------------------------------------------------------*/
 
-.vision{
-    font-family: 'Caveat', cursive;
-	width: 60%;
-	margin: 0 auto;
-	padding-bottom: 80px;
-}
+/* 横並び */
 
-
-/* SEC02 MESSAGE
-------------------------------------------------------------*/
-.wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
-}
-
-.bg{
-	line-height: 0;
-}
-
-.txt h2{
-	padding: 0 0 20px !important;
-}
+.flex {
+    display: flex; /*横並び*/
+    
+  }
+  .flex .image {
+    width: 200px; /*画像サイズ指定*/
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .flex .right {
+    margin: auto;
+    padding: 0;
+  }
 
 
 /* 目次
@@ -195,7 +191,7 @@ a.btn_26:hover {
 /*　終わり
 ------------------------------------------------------------*/
 #sec04{
-	background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
+	background: url(../images/bottom.jpg) no-repeat 30% 30% fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	color: #fff;
@@ -263,24 +259,7 @@ a.btn_26:hover {
 		padding: 20px 10px;
 	}
 
-	/* SEC02 MESSAGE
-	-----------------*/
-	.txt, .bg{
-		width: 50%;
-		float: left;
-		display: table;
-	background: #f6f6f6;
-	}
-
-	#sec02_02 .txt, #sec02_02 .bg{
-		float: right;
-	}
-
-	.vMid{
-		display: table-cell;
-		padding: 0 100px;
-		vertical-align: middle;
-	}
+	
 	
 	/* SEC03 SERVICE MESSAGE STORY
 	-----------------*/
