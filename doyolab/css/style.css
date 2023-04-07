@@ -152,6 +152,10 @@ section h2{
 	margin-bottom: 50px;
 }
 
+.col3 p{
+    text-align: center;
+}
+
 .col3 img{
 	max-width: 288px;
 	display: block;
