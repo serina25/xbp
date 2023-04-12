@@ -20,11 +20,11 @@ body{
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
 	color: #000;
-	background: #fff;
+	background: #fffbc7;
 }
 
 a{
-	color: #0066ff;
+    color: #ff69b4; 
 	text-decoration: none;
 }
 
@@ -33,7 +33,6 @@ a:hover, .active{
 }
 
 a:active, a:focus,input:active, input:focus{outline:0;}
-
 
 /* ヘッダー
 ------------------------------------------------------------*/
