@@ -11,7 +11,6 @@ caption,th{text-align:left;}
 q:before,q:after{content:'';}
 object,embed{vertical-align:top;}
 legend{display:none;}
-h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
@@ -92,130 +91,8 @@ h1, h2{
 }
 
 img{
-	width: 100%;
-	height: auto;
+    border-radius: 35px; 
 }
-
-section{clear:both;}
-
-section h2{
-	font-size: 22px;
-	font-weight:normal;
-	text-align: center;
-}
-
-.inner{
-	width: 94%;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
-
-.col2 li{
-	display: inline-block;
-	width: 100%;
-  	margin: 20px 0 20px 0;
-}
-
-
-/* SEC01 VISION
-------------------------------------------------------------*/
-
-.vision{
-	width: 60%;
-	margin: 0 auto;
-	padding-bottom: 80px;
-}
-
-
-/* SEC02 MESSAGE
-------------------------------------------------------------*/
-.wrap{
-	clear: both;
-	width: 100%;
-	background: #f6f6f6;
-}
-
-.bg{
-	line-height: 0;
-}
-
-.txt h2{
-	padding: 0 0 20px !important;
-}
-
-
-/* SEC03 SERVICE MESSAGE STORY
-------------------------------------------------------------*/
-.col3 li{
-	margin-bottom: 50px;
-}
-
-.col3 img{
-	max-width: 288px;
-	display: block;
-	margin: -5px auto 20px;
-}
-
-
-/* SEC04 STORY & SUCCESS
-------------------------------------------------------------*/
-#sec04{
-	background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
-	color: #fff;
-}
-
-
-/* SEC05 PROFILE
-------------------------------------------------------------*/
-#sec05{
-	padding-top: 50px;
-}
-
-#sec05 dl{
-	line-height: 1.2;
-}
-
-#sec05 dt{
-	clear: left;
-	float: left;
-	display: block;
-	width: 30%;
-	margin-right: 10%;
-	margin-bottom: 20px;
-	text-align: right;
-	line-height: 1.6em;
-}
-
-#sec05 dd{
-	width: 60%;
-	float: left;
-	text-align: left;
-	margin-bottom: 15px;
-	line-height: 1.6em;
-}
-
-#sec05 header{
-	display: none;
-}
-
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
-}
-
 
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
