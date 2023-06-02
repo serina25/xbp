@@ -90,6 +90,11 @@ h1, h2{
 	font-family: "游明朝";
 }
 
+h3{
+    font-size:120% ;
+
+}
+
 img{
     border-radius: 35px;
 }
@@ -154,6 +159,14 @@ img{
 	#mainnav.changeNav li{
 		padding: 20px 10px;
 	}
+
+    /*---画面分割-------------------------*/
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 200px;
+        
+      }
 
 	/* SEC02 MESSAGE
 	-----------------*/
