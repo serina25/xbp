@@ -18,12 +18,12 @@ body{
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
-	color: #000;
-	background: #fffbc7;
+	color: #fbffff;
+	background: #a2cbe5;
 }
 
 a{
-    color: #ff69b4; 
+    color: #fdbec6; 
 	text-decoration: none;
 }
 
@@ -91,7 +91,7 @@ h1, h2{
 }
 
 img{
-    border-radius: 35px; 
+    border-radius: 35px;
 }
 
 /* RESPONSIVE 設定

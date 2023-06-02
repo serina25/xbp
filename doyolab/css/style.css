@@ -20,11 +20,12 @@ body{
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
-	background: #fffbc7;
+	color: #fbffff;
+	background: #466482;
 }
 
 a{
-	color: #0066ff;
+    color: #fdbec6; 
 	text-decoration: none;
 }
 
@@ -33,6 +34,7 @@ a:hover, .active{
 }
 
 a:active, a:focus,input:active, input:focus{outline:0;}
+
 
 
 /* ヘッダー
@@ -174,8 +176,8 @@ section h2{
 	margin: auto;
 	padding: 1rem 4rem;
 	border-radius: 100vw;
-	color: #000;
-	background: #bedfc2;
+	color: #fbffff;
+	background: #7896b4;
 }
 a.btn_26:hover {
 	background-position: right center;
