@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+
+body{
+    margin: auto;
+	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font-weight: 300;
+	-webkit-text-size-adjust:100%;
+    
+    margin: auto;
+	color: #10310f;
+	background: #fff3f3;
+}
+
+/*ｈ系　見出し--------------------------------*/
+
+h1, h2, h3, h4{
+    font-family: 
+}
+
+/*URL設定-------------------------------------*/
+a{
+    color: ;
+    text-decoration: none;
+
+}
+
+a img{
+    border: none;
+}
+
+a :visited{
+    color: ;
+}
+
+a :hover{
+    color: ;
+}
+
+/*表の設定-----------------------------------*/
+table{
+    border:solid 1px black;
+    border-collapse: collapse;
+}
+
+table th {
+    padding: 3px 10px;
+    text-align: left;
+  }
+  
+table td {
+    padding: 3px 10px;
+  }
+
+  /*横並び----------------------------------*/
+  .hyou{
+    display: flex;
+  }
+
