@@ -24,25 +24,56 @@ body{
     margin:0 auto;
 	overflow-x: hidden;
 	background: #fff;
+    text-align: center;
 }
 
+h3{
+    padding-top: 50px;
+}
 
+.box {
+    padding: 20px 1em;
+    margin: 2em 0;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
 
+.box h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.box13 p {
+    margin: 0; 
+    padding: 0;
+}
 
 /* ヘッダー
 ------------------------------------------------------------*/
 
+header {
+    display: flex;
+}
 
+.logo {
+    margin: 5px;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    padding-top: 20px;
+}
 
 /* フッター
 ------------------------------------------------------------*/
 
 footer {
-    max-width: 320px; 
+    width: 320px; 
     height: 80px; 
     margin:0 auto;
     background: #f4eaff;
-    padding: 20px 50px;
     box-sizing: border-box; /* padding分を含んで幅を100%にするため */
     position: fixed; /* ウィンドウを基準に画面に固定 */
     bottom: 0; /* 上下の固定位置を上から0pxにする */
@@ -59,25 +90,42 @@ footer .gnav .menu li {
     margin:15px;
 }
 
+i {
+    font-size:2em;
+    color: #000000;
+}
 
+.kankou::before {
+    font-family: "Font Awesome 5 Free";
+    content: '\f6a1';
+    font-weight: 900;
+  }
+
+.gurume::before{
+    font-family: "Font Awesome 5 Free";
+    content: '\e4c6';
+    font-weight: 900;
+}
+
+/*検索------------------------------------------------------*/
+
+  
 
 /* 目的別で探す
 ------------------------------------------------------------*/
 .mokuteki{
     display: flex;
 }
+
 .mokuteki img{
     border-radius: 30px;   
     width: 100px;
     height: 100px;
     object-fit: cover;
-    margin:15px;
+    padding: 15px;
+    margin: auto;
 }
 
-/* 目次
-------------------------------------------------------------*/
 
 
-
-/* RESPONSIVE 設定
-------------------------------------------------------------*/
+/* -------------------------------------------*/
