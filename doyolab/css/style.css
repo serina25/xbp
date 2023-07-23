@@ -172,6 +172,10 @@ table td {
     padding: 3px 10px;
   }
 
+.yarukoto {
+    padding: 20px;
+}
+
   /*横並び----------------------------------*/
   .hyou{
     display: flex;
